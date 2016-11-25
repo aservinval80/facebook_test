@@ -13,4 +13,5 @@ class Usuario:
 		resultado = requests.get(self.url, params=parametros).json()
 		print(resultado)
 		return resultado
+		print ("hola")
 
